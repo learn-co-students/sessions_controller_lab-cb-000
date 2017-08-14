@@ -1,0 +1,9 @@
+<% if session[:name]  %>
+
+<%= render 'logged' %>
+
+<%else%>
+
+<%= render 'not_logged' %>
+
+<%end%>
